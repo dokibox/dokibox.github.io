@@ -1,0 +1,62 @@
+layout: page
+  
+---
+.jumbotron
+  .container
+    .row
+      .col-md-5
+        .logo.clearfix
+          div
+            img(src="/images/dokiboxIcon.svg", width="100")
+          div
+            h1
+             | dokibox
+            p.subtitle
+             | ~the lightweight music player for Mac OS X~
+        .actions
+          a.btn.btn-primary.btn-large(href="https://s3.amazonaws.com/dokibox-release/stable/dokibox-2.0.zip", role="button")
+            span.glyphicon.glyphicon-download
+            |  Download now
+          | 
+          a.btn.btn-default.btn-large(href="https://github.com/mileswu/dokibox", role="button")
+            img(src="/images/GitHub-Mark-120px-plus.png")
+            |  View on GitHub
+      .col-md-7
+        a(href="/images/screenshot.png")
+          img.img-responsive.screenshot(src="/images/screenshot.png", width="500")
+    div
+.container
+  .row.featureboxes
+    .col-md-4
+      h3 
+        span.glyphicon.glyphicon-dashboard
+        |  Simple, fast and lightweight
+      p Handles libraries with tens of thousands of songs effortlessly, with much lower memory usage than behemoths like iTunes. GPU accelerated UI, too.
+    .col-md-4
+      h3
+        span.glyphicon.glyphicon-heart-empty
+        |  Free and open source
+      p All good things are free, and in this case we mean free as in speech. Bugfixes, pull requests and other development welcome. 
+    .col-md-4
+      h3 
+        span.glyphicon.glyphicon-play-circle
+        |  Supports many formats
+      p Got a lot of songs in FLAC, Ogg Vorbis, MP3, AAC or Apple Lossless? All no problem, unlike iTunes.
+  .row
+    .col-md-4
+      h3
+        span.glyphicon.glyphicon-stats
+        |  Last.fm scrobbling
+      p No need to download any plugins or extra programs. Scrobbling to 
+        a(href="http://last.fm/") last.fm
+        |  works straight out of the box.
+    .col-md-4
+      h3
+        span.glyphicon.glyphicon-plus
+        |  Extensible with plugins
+      p Some obscure codec that dokibox doesn't support? Extend its capabilities with a plugin. 
+    .col-md-4
+      h3
+        span.glyphicon.glyphicon-eye-open
+        |  Designed solely for OS X 
+      p No cross-platform kludges allows dokibox to behave and feel just like how all OS X apps should.  
