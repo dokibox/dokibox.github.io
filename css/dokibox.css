@@ -1,0 +1,37 @@
+.navbar-brand img {
+  display: inline;
+}
+footer .copyright {
+  color: #c8c8c8;
+  font-size: 0.8em;
+}
+.jumbotron {
+  padding: 0;
+}
+.jumbotron .logo p {
+  color: #969696;
+  font-size: 1em;
+}
+.jumbotron .logo img {
+  float: left;
+  margin-right: 15px;
+}
+.jumbotron .logo div {
+  float: left;
+}
+.jumbotron .logo {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.jumbotron .logo h1 {
+  margin-top: 8px;
+  margin-bottom: -5px;
+}
+.jumbotron .screenshot {
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-large img {
+  width: 16px;
+  vertical-align: text-bottom;
+}
