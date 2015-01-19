@@ -27,6 +27,8 @@ footer .copyright
 .jumbotron .screenshot
   margin-left auto
   margin-right auto
+.jumbotron .actions
+  margin-bottom 20px
 
 .btn-large img
   width 16px
