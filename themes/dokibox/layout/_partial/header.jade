@@ -13,6 +13,6 @@
     #navbar
       ul.nav.navbar-nav
         li
-          a Development
-        li
           a Support
+        li(class={active: page.path === 'development/index.html'})
+          a(href="/development") Development

@@ -1,0 +1,74 @@
+title: Development
+---
+
+.container
+  h2
+    span.fa.fa-download
+    |  Beta and bleeding-edge builds
+  .alert.alert-warning
+    span.fa.fa-warning
+    |  These versions can be unstable and experimental. Use at your own risk.
+  .actions
+    a.btn.btn-primary(href="#", role="button")
+      span.glyphicon.glyphicon-download
+      |  Download beta
+    | 
+    a.btn.btn-danger(href="#", role="button")
+      span.glyphicon.glyphicon-download
+      |  Bleeding-edge builds
+  p
+    | Unlike stable or beta releases, bleeding-edge builds are not cryptographically signed
+    | nor will they auto-update. If you see a warning about the lack of a code signature,
+    | this is expected and you will need to bypass it by ctrl+clicking the application and
+    | selecting open, followed by open again.
+  p
+    | Bleeding-edge builds are built automatically when new code is submitted to the code repository. 
+    | The current status of the 
+    code master
+    |  branch build is: 
+    a(href="https://travis-ci.org/dokibox/dokibox")
+      img(src="https://travis-ci.org/dokibox/dokibox.svg?branch=master")
+  p
+    | To get back to using the latest beta or latest stable release, just delete the application and re-download
+    | it from the website.
+
+  h2
+    span.fa.fa-code
+    |  Source code
+  .actions
+    a.btn.btn-primary(href="https://github.com/dokibox/dokibox", role="button")
+      span.fa.fa-code-fork
+      |  Source code
+  p
+    | Bugfixes or new features are very welcome.
+    | Please create an issue with the patch attached or create a pull request on GitHub.
+
+  h2
+    span.fa.fa-cog
+    |  Build instructions 
+  p
+    | First of all, you will need to have cmake and the latest version of Xcode.
+    | If you have homebrew you can install cmake with
+    code brew install cmake
+    | and the latest version of Xcode can be obtained from the Mac App Store.
+  p
+    | After checking out the code, run the following to build the required libraries: 
+  pre.
+    ./build-patchdeps.sh
+    ./build-deps.sh
+  p
+    | Now you can open 
+    code dokibox.xcodeproj
+    | and just build it in Xcode as usual.
+
+  h2
+    span.fa.fa-bug
+    |  Issue tracker 
+  .actions
+    a.btn.btn-primary(href="https://github.com/dokibox/dokibox/issues", role="button")
+      span.fa.fa-list
+      |  View issues
+  p
+    | More detailed information on the procedure for reporting bugs is available on the 
+    a(href="/support") support
+    |  page.
