@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content=""><title>Development | dokibox</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/dokibox.css"><link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+</head><body><div class="navbar navbar-inverse navbar-static-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand"><img src="/images/dokiboxIcon.svg" width="20"/> dokibox</a></div><div id="navbar"><ul class="nav navbar-nav"><li class="active"><a href="/development">Development</a></li><li><a href="/support">Support</a></li></ul></div></div></div><div class="container"><h2><span class="fa fa-download"></span> Beta and bleeding-edge builds</h2><div class="alert alert-warning"><span class="fa fa-warning"></span> These versions can be unstable and experimental. Use at your own risk.</div><div class="actions"><a href="#" role="button" class="btn btn-primary"><span class="glyphicon glyphicon-download"></span> Download beta</a> <a href="#" role="button" class="btn btn-danger"><span class="glyphicon glyphicon-download"></span> Bleeding-edge builds</a></div><p>Unlike stable or beta releases, bleeding-edge builds are not cryptographically signed
+nor will they auto-update. If you see a warning about the lack of a code signature,
+this is expected and you will need to bypass it by ctrl+clicking the application and
+selecting open, followed by open again.</p><p>Bleeding-edge builds are built automatically when new code is submitted to the code repository. 
+The current status of the <code>master</code> branch build is: <a href="https://travis-ci.org/dokibox/dokibox"><img src="https://travis-ci.org/dokibox/dokibox.svg?branch=master"/></a></p><p>To get back to using the latest beta or latest stable release, just delete the application and re-download
+it from the website.</p><h2><span class="fa fa-code"></span> Source code</h2><div class="actions"><a href="https://github.com/dokibox/dokibox" role="button" class="btn btn-primary"><span class="fa fa-code-fork"></span> Source code</a></div><p>Bugfixes or new features are very welcome.
+Please create an issue with the patch attached or create a pull request on GitHub.</p><h2><span class="fa fa-cog"></span> Build instructions </h2><p>First of all, you will need to have cmake and the latest version of Xcode.
+If you have homebrew you can install cmake with<code>brew install cmake</code>and the latest version of Xcode can be obtained from the Mac App Store.</p><p>After checking out the code, run the following to build the required libraries: </p><pre>./build-patchdeps.sh
+./build-deps.sh</pre><p>Now you can open <code>dokibox.xcodeproj</code>and just build it in Xcode as usual.</p><h2><span class="fa fa-bug"></span> Issue tracker </h2><div class="actions"><a href="https://github.com/dokibox/dokibox/issues" role="button" class="btn btn-primary"><span class="fa fa-list"></span> View issues</a></div><p>More detailed information on the procedure for reporting bugs is available on the <a href="/support">support</a> page.</p></div><div class="container"><hr/><footer><p class="copyright">&copy; 2011&ndash;2015 Miles Wu and the dokibox contributors </p></footer></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56257018-1', 'auto');
+  ga('send', 'pageview');
+
+</script></body></html>
