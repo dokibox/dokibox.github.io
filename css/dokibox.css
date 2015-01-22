@@ -31,12 +31,12 @@ footer .copyright {
   margin-left: auto;
   margin-right: auto;
 }
+.jumbotron .actions .fa {
+  font-size: 120%;
+  vertical-align: text-bottom;
+}
 .actions {
   margin-bottom: 20px;
-}
-.btn img {
-  width: 16px;
-  vertical-align: text-bottom;
 }
 .faq .panel-body {
   padding-top: 10px;
