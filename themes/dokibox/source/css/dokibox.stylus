@@ -1,3 +1,4 @@
+$notsolightgrey = rgb(100, 100, 100)
 $lightgrey = rgb(150, 150, 150)
 $vlightgrey = rgb(200, 200, 200)
 
@@ -33,3 +34,11 @@ footer .copyright
 .btn img
   width 16px
   vertical-align text-bottom
+
+.faq .panel-body
+  padding-top 10px
+  padding-bottom 10px
+  padding-left 25px
+  color $notsolightgrey
+.faq .panel-heading
+  font-size inherit

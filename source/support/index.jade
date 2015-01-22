@@ -1,0 +1,53 @@
+title: Support
+---
+
+.container
+  h2
+    span.fa.fa-bug
+    |  Found a bug?
+  .alert.alert-info
+    span.fa.fa-info-circle
+    |  Please do not report bugs for bleeding-edge builds as they are often works-in-progress.
+    | Bug reports for the beta version are welcome though! 
+  .actions
+    a.btn.btn-primary(href="https://github.com/dokibox/dokibox/issues?q=is%3Aopen+is%3Aissue+label%3Abug", role="button")
+      span.fa.fa-list
+      |  Current Bugs
+  p
+    |  If you think you've found a bug, follow these steps:
+    ol
+      li Check to see if there are any bugs reported that describe what your bug is. 
+        | If there are, don't create a new issue, but simply comment on the existing issue.
+      li Provide (if possible) steps to reproduce the bug
+      li Say which version of dokibox and OS X you are using
+      li If applicable, provide a screenshot of the bug
+      li If applicable, provide a link to a test file that causes the bug 
+    | In general, the more information you provide the easier it is to find and fix the bug!
+
+  h2
+    span.fa.fa-plus
+    |  Want to request a feature?
+  .actions
+    a.btn.btn-primary(href="https://github.com/dokibox/dokibox/issues?q=is%3Aopen+is%3Aissue+label%3Afeaturereq", role="button")
+      span.fa.fa-list
+      |  Feature Requests
+  p
+    | If you think dokibox is missing something that you'd really like, feel free to request it by creating a new issue.
+    | Make sure you check before creating a new issue that no similar feature request already exists.
+    | If one does, just comment on that existing feature request to express your interest.
+  h2
+    span.fa.fa-question-circle
+    |  Frequently asked questions
+  .panel.panel-default.faq
+    .panel-heading.panel-title What formats will dokibox play?
+    .panel-body
+      | Out of the box (pun not intended), it will play MP3, FLAC, Ogg Vorbis, AAC and Apple Lossless (ALAC).
+      | More formats can be supported with plugins.
+  .panel.panel-default.faq
+    .panel-heading.panel-title What version of Mac OS X does dokibox need?
+    .panel-body Mac OS X 10.7+ 
+  .panel.panel-default.faq
+    .panel-heading.panel-title What is dokibox licensed as?
+    .panel-body dokibox itself is licensed under the 
+      a(href="https://github.com/dokibox/dokibox/blob/master/LICENSE") BSD license
+      | .
